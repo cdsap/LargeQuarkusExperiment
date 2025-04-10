@@ -4,8 +4,8 @@ set -e
 
 JAVA_FILE="root4/src/main/java/Alo.java"
 
-./gradlew assemble
-./gradlew assemble
+./gradlew assemble  --configuration-cache
+./gradlew assemble  --configuration-cache
 
 # Create the file initially if it doesn't exist
 if [ ! -f "$JAVA_FILE" ]; then
@@ -35,7 +35,7 @@ for i in $(seq $((CURRENT_INDEX + 1)) $((CURRENT_INDEX + 20))); do
   echo "✅ Appended sayAlo$i to $JAVA_FILE"
 
   # Run Gradle build
-  ./gradlew assemble -Dscan.tag."large.3.21.1" --configuration-cache
+  ./gradlew assemble -Dscan.tag."large.3.21.1-cc" --configuration-cache
 
   echo "✅ Gradle build complete for iteration $i"
 done

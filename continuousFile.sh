@@ -35,7 +35,7 @@ for i in $(seq $((CURRENT_INDEX + 1)) $((CURRENT_INDEX + 20))); do
   echo "✅ Appended sayAlo$i to $JAVA_FILE"
 
   # Run Gradle build
-  ./gradlew assemble -Dscan.tag."large.3.15.1"
+  ./gradlew assemble -Dscan.tag."large.3.21.1" --configuration-cache
 
   echo "✅ Gradle build complete for iteration $i"
 done

@@ -1,0 +1,25 @@
+package com.performance
+
+class Module_3_170_5 {
+    fun module_3_170_5() : String {
+        val value = "Module_3_170_5"
+        println("module_3_170")
+        
+        val dependencyClass0 = com.performance.Module_2_159_1().module_2_159_1()
+        println(dependencyClass0)
+        val dependencyClass1 = com.performance.Module_2_159_3().module_2_159_3()
+        println(dependencyClass1)
+        val dependencyClass2 = com.performance.Module_2_138_4().module_2_138_4()
+        println(dependencyClass2)
+        val dependencyClass3 = com.performance.Module_2_155_3().module_2_155_3()
+        println(dependencyClass3)
+        val dependencyClass4 = com.performance.Module_2_151_2().module_2_151_2()
+        println(dependencyClass4)
+        val dependencyClass5 = com.performance.Module_2_150_4().module_2_150_4()
+        println(dependencyClass5)
+        val dependencyClass6 = com.performance.Module_2_134_2().module_2_134_2()
+        println(dependencyClass6)
+
+        return value
+    }
+}

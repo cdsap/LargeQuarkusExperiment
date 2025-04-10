@@ -1,0 +1,43 @@
+plugins {
+    id ("java-library")
+    id ("maven-publish")
+    id ("jacoco")
+    id("awesome.kotlin.plugin")
+}
+
+dependencies {
+    
+    implementation(project(":layer_0:module_0_10"))
+    implementation(project(":layer_0:module_0_5"))
+    implementation(project(":layer_0:module_0_88"))
+    implementation(project(":layer_0:module_0_44"))
+    implementation(project(":layer_0:module_0_35"))
+    implementation(project(":layer_0:module_0_43"))
+    implementation(project(":layer_0:module_0_22"))
+    implementation(project(":layer_0:module_0_4"))
+    implementation(project(":layer_0:module_0_62"))
+    implementation(project(":layer_0:module_0_54"))
+    implementation(project(":layer_0:module_0_79"))
+    implementation(project(":layer_0:module_0_31"))
+    implementation(project(":layer_0:module_0_25"))
+    implementation(project(":layer_0:module_0_29"))
+    implementation(project(":layer_0:module_0_52"))
+    implementation(project(":layer_0:module_0_65"))
+    implementation(project(":layer_0:module_0_59"))
+    implementation(project(":layer_0:module_0_45"))
+    implementation(project(":layer_0:module_0_70"))
+    implementation(project(":layer_0:module_0_85"))
+    implementation(project(":layer_0:module_0_12"))
+    implementation(project(":layer_0:module_0_64"))
+    implementation(project(":layer_0:module_0_20"))
+    implementation(project(":layer_0:module_0_7"))
+    implementation(project(":layer_0:module_0_76"))
+    implementation(project(":layer_0:module_0_61"))
+    implementation(project(":layer_0:module_0_3"))
+    implementation(project(":layer_0:module_0_40"))
+    implementation(project(":layer_0:module_0_42"))
+    implementation(project(":layer_0:module_0_66"))
+    implementation(project(":layer_0:module_0_81"))
+    implementation(project(":layer_0:module_0_6"))
+}
+        
